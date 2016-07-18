@@ -1,0 +1,6 @@
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\bin\Debug\Task8.1.exe.config
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\bin\Debug\Task8.1.exe
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\bin\Debug\Task8.1.pdb
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\obj\Debug\Task8.1.csprojResolveAssemblyReference.cache
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\obj\Debug\Task8.1.exe
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\obj\Debug\Task8.1.pdb
