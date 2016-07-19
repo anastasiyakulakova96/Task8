@@ -35,5 +35,22 @@ namespace Task8._1
 
         [XmlElement("registration_date", DataType = "date")]
         public DateTime Registration_date { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder result = new StringBuilder();
+            result.AppendLine("Id: " + Id);
+            result.AppendLine("Isbn: " + Isbn);
+            result.AppendLine("Author: " + Author);
+            result.AppendLine("Title: " + Title);
+            result.AppendLine("Genre: " + Genre);
+            result.AppendLine("Publisher: " + Publisher);
+            result.AppendLine("Publish_date: " + Publish_date);
+            result.AppendLine("Description: " + Description);
+            result.AppendLine("Registration_date: " + Registration_date);
+            result.AppendLine("------------------------------------------");
+
+            return result.ToString();
+        }
     }
 }

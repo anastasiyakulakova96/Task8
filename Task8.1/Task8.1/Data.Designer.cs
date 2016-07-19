@@ -70,7 +70,7 @@ namespace Task8._1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to d:\\Books.xml.
+        ///   Looks up a localized string similar to f:\\2.xml.
         /// </summary>
         internal static string pathFromFile {
             get {
@@ -79,7 +79,7 @@ namespace Task8._1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to d:\\books1.xml.
+        ///   Looks up a localized string similar to f:\\books1.xml.
         /// </summary>
         internal static string pathToFile {
             get {

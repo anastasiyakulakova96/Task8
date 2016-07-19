@@ -10,13 +10,20 @@ namespace Task8._1
     {
         static void Main(string[] args)
         {
-            XMLWorker worker = new XMLWorker();
             ConsoleClass cons = new ConsoleClass();
+            Controller controller = new Controller();
 
-            Catalog catalog = worker.Deserialize<Catalog>(Data.pathFromFile);
-            worker.Serialize<Catalog>(catalog, Data.pathToFile);
+            Catalog catalog = controller.CheckSerialize();
 
-            cons.ShowMessage();
+            cons.ShowCatolog(catalog);
+
+            if (catalog != null && cons.Cases())
+            {
+                controller.CheckDeserialize();
+                cons.ShowSerializeMessage();
+            }
+
+            cons.MessageForExit();
 
             Console.ReadKey();
         }

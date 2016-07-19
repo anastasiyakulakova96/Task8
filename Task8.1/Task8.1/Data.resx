@@ -121,9 +121,9 @@
     <value>http://library.by/catalog</value>
   </data>
   <data name="pathFromFile" xml:space="preserve">
-    <value>d:\\Books.xml</value>
+    <value>f:\\2.xml</value>
   </data>
   <data name="pathToFile" xml:space="preserve">
-    <value>d:\\books1.xml</value>
+    <value>f:\\books1.xml</value>
   </data>
 </root>

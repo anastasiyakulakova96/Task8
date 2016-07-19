@@ -13,12 +13,12 @@ namespace Task8._1
         public T Deserialize<T>(string path)
         {
             XmlSerializer xs = new XmlSerializer(typeof(T));
-            Stream reader = new FileStream(path, FileMode.Open);
 
-            T catalog = (T)xs.Deserialize(reader);
-
-            reader.Close();
-            return catalog;
+            using (Stream reader = new FileStream(path, FileMode.Open))
+            {
+                T catalog = (T)xs.Deserialize(reader);
+                return catalog;
+            }
         }
 
         public void Serialize<T>(T obj, string pathToFile)
@@ -27,10 +27,10 @@ namespace Task8._1
             ns.Add("", Data.namespaces);
             XmlSerializer xs = new XmlSerializer(typeof(T));
 
-            // Запись
-            var writer = new StreamWriter(pathToFile, false, System.Text.Encoding.UTF8);
-            xs.Serialize(writer, obj, ns);
-            writer.Close();
+            using (var writer = new StreamWriter(pathToFile, false, System.Text.Encoding.UTF8))
+            {
+                xs.Serialize(writer, obj, ns);
+            }
         }
     }
 }

@@ -6,3 +6,11 @@ c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8
 c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\obj\Debug\Task8.1.csproj.GenerateResource.Cache
 c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\obj\Debug\Task8.1.exe
 c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Task8.1\Task8.1\obj\Debug\Task8.1.pdb
+C:\Task8\Task8.1\Task8.1\bin\Debug\Task8.1.exe.config
+C:\Task8\Task8.1\Task8.1\obj\Debug\Task8.1.exe
+C:\Task8\Task8.1\Task8.1\obj\Debug\Task8.1.pdb
+C:\Task8\Task8.1\Task8.1\bin\Debug\Task8.1.exe
+C:\Task8\Task8.1\Task8.1\bin\Debug\Task8.1.pdb
+C:\Task8\Task8.1\Task8.1\obj\Debug\Task8.1.csprojResolveAssemblyReference.cache
+C:\Task8\Task8.1\Task8.1\obj\Debug\Task8._1.Data.resources
+C:\Task8\Task8.1\Task8.1\obj\Debug\Task8.1.csproj.GenerateResource.Cache

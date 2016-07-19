@@ -15,5 +15,19 @@ namespace Task8._1
 
         [XmlElement("book")]
         public Book[] books { set; get; }
+
+        public override string ToString()
+        {
+            StringBuilder result = new StringBuilder();
+            result.AppendLine("date: " + Date+"\n");
+
+            for(int i = 0; i < books.Length; i++)
+            {
+                Book book = books[i];
+                result.AppendLine("book[" + i + "]:");
+                result.AppendLine(book.ToString());
+            }
+            return result.ToString();
+        }
     }
 }
